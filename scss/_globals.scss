@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-image: linear-gradient(
+    to left bottom,
+    #d98162,
+    #d98162,
+    #d98162,
+    #d98162,
+    #d98162,
+    #d78465,
+    #d58769,
+    #d38a6c,
+    #ce9074,
+    #c9967c,
+    #c49c85,
+    #bfa18f
+  );
+  margin: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  background-color: blanchedalmond;
+  line-height: 20px;
+}
+
+a {
+  font-size: 15px;
+  font-family: "Urbanist", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  width: 50%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+@mixin titulos($fuente, $color) {
+  font-size: $fuente;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3em;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: auto;
+  height: 5rem;
+  padding: 50px 75px 75px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color;
+}
+/* MIXINS*/
+
+.parrafo__h1 {
+  @include titulos(2em, black);
+}
+
+.h2__elmejorcafe {
+  @include titulos(2rem, black);
+}
+
+.parrafo__suc {
+  @include titulos(2rem, rgb(19, 18, 18));
+}

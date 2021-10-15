@@ -1,0 +1,55 @@
+footer {
+  background-image: linear-gradient(
+    to left bottom,
+    #bf5b45,
+    #c0694f,
+    #c0755a,
+    #c08166,
+    #c08d74,
+    #b98a73,
+    #b38773,
+    #ac8472,
+    #9e7262,
+    #906054
+  );
+}
+.nav-link {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.col-md-4 {
+  font-size: 20px;
+  padding-right: 100px;
+  font-family: fantasy;
+}
+.mx-auto {
+  max-width: 100%;
+}
+.font__size {
+  font-size: 18px;
+}
+
+.centrar__iconos {
+  display: block;
+}
+.fab {
+  font-size: 40px;
+}
+.color__1 {
+  color: blue;
+}
+
+.color__2 {
+  color: green;
+}
+
+.color__3 {
+  color: darkorchid;
+}
+
+.color__4 {
+  color: dodgerblue;
+}
+.margin {
+  margin-top: 1.5rem;
+}

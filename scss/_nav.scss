@@ -1,0 +1,58 @@
+/* aqui van los estilos de la nav*/
+
+nav {
+  background-image: linear-gradient(
+    to left bottom,
+    #bf5b45,
+    #c0694f,
+    #c0755a,
+    #c08166,
+    #c08d74,
+    #b98a73,
+    #b38773,
+    #ac8472,
+    #9e7262,
+    #906054,
+    #814f46,
+    #733e39
+  );
+  .fas {
+    font-size: 40px;
+    padding-right: 20px;
+    color: #030303;
+  }
+
+  .navbar-bar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 5rem;
+    color: #030303;
+  }
+
+  .navbar-brand {
+    height: 50px;
+    width: 10px;
+    color: #030303;
+  }
+  .nav-item {
+    padding-left: 20px;
+    color: #030303;
+  }
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    padding-right: 1rem;
+    padding-left: 5rem;
+
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+  }
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+}
+
+/* aqui terminan los estilos de la nav */

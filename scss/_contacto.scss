@@ -1,0 +1,35 @@
+fieldset {
+  background-image: linear-gradient(
+    to left bottom,
+    #bf5b45,
+    #c0694f,
+    #c0755a,
+    #c08166,
+    #c08d74,
+    #b98a73,
+    #b38773,
+    #ac8472,
+    #9e7262,
+    #906054,
+    #814f46,
+    #733e39
+  );
+  padding-top: 40px !important;
+}
+.col-md-12 {
+  padding-top: 40px !important;
+}
+.header {
+  background: none;
+}
+.btn-primary {
+  background-color: #733e39 !important;
+  border: #733e39 !important;
+}
+.btn-primary:hover {
+  background-color: #bf6d5a !important;
+}
+.header {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
