@@ -101,7 +101,7 @@ nav .navbar-brand {
   color: #030303;
 }
 nav .nav-item {
-  padding-left: 20px;
+  padding-left: 40px;
   color: #030303;
 }
 nav .nav-link {
@@ -116,6 +116,21 @@ nav .nav-link {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #000;
+}
+
+.btn {
+  background-color: #733e39 !important;
+}
+
+.btn:hover {
+  background-color: #bf6d5a !important;
+  border: none !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.btn-outline-secondary {
+  color: white !important;
+  border: none !important;
 }
 
 /* aqui terminan los estilos de la nav */
