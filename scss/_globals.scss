@@ -69,3 +69,6 @@ img {
 .parrafo__suc {
   @include titulos(2rem, rgb(19, 18, 18));
 }
+.row {
+  margin: 0 !important;
+}
