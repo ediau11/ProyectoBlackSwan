@@ -10,7 +10,7 @@
 }
 
 .img-fluid {
-  @include ImgFluid(url(css/img/Imagenh1.jpeg), cover, 100%, 400px !important);
+  @include ImgFluid(url(css/img/Imagenh1.jpeg), cover, 100%, 500px !important);
 }
 .navbar-light .navbar-nav .nav-link {
   color: black !important;
