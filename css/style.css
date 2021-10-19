@@ -258,6 +258,10 @@ fieldset {
   font-size: 2rem;
 }
 
+.fondoContacto {
+  background-image: linear-gradient(to left bottom, #bf5b45, #c0694f, #c0755a, #c08166, #c08d74, #b98a73, #b38773, #ac8472, #9e7262, #906054, #814f46, #733e39);
+}
+
 footer {
   background-image: linear-gradient(to left bottom, #bf5b45, #c0694f, #c0755a, #c08166, #c08d74, #b98a73, #b38773, #ac8472, #9e7262, #906054);
 }
