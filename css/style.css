@@ -308,6 +308,14 @@ footer {
   margin-top: 1.5rem;
 }
 
+.centradoNombre {
+  text-align: center !important;
+}
+
+.justifyContentCenter {
+  justify-content: center !important;
+}
+
 .img-fluid {
   background-image: url(css/img/Imagenh1.jpeg);
   object-fit: cover;
