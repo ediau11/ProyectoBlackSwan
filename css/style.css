@@ -207,8 +207,8 @@ section .col-sm-3 img {
   margin-top: 50px;
 }
 section .col-sm-3:hover {
-  transform: scale(1.1, 1.2);
-  transition: 1s;
+  transform: scale(1, 1.1);
+  transition: 2s;
 }
 
 /*aqui terminan los estilos de menu*/
@@ -221,13 +221,14 @@ section .col-sm-3:hover {
   width: 100%;
   height: 60%;
   object-fit: cover;
-  margin-left: 40px;
+  margin-left: 40px !important;
+  margin-right: 20px;
   margin-top: 50px;
 }
 
 .sucursal:hover {
-  transform: scale(1.1, 1.2);
-  transition: 1s;
+  transform: scale(1, 1.1) !important;
+  transition: 1s !important;
 }
 
 /*aqui termian los estilos de sucursales*/
