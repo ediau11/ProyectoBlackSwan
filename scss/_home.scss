@@ -2,7 +2,7 @@
 
 @mixin parrafo($color1, $margen) {
   font-size: 2rem;
-  line-height: 40px;
+  line-height: 50px;
   font-family: "Noto Sans JP", sans-serif;
   width: auto;
 
@@ -17,7 +17,11 @@
 }
 
 .h2__elmejorcafe {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  padding-top: 40px !important;
 }
 
+.parrafo__nosotros {
+  @include parrafo(black, 30px);
+}
 /*aqui terminan los estilos de la home*/

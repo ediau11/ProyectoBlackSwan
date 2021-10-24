@@ -32,7 +32,7 @@ img {
 /* MIXINS*/
 .parrafo__h1 {
   font-size: 2em;
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 1.3em;
   text-align: center;
   margin-bottom: 2rem;
@@ -47,7 +47,7 @@ img {
 
 .h2__elmejorcafe {
   font-size: 2rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 1.3em;
   text-align: center;
   margin-bottom: 2rem;
@@ -62,7 +62,7 @@ img {
 
 .parrafo__suc {
   font-size: 2rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 1.3em;
   text-align: center;
   margin-bottom: 2rem;
@@ -137,7 +137,7 @@ nav .nav-link {
 /*aqui van los estilos de la home*/
 .parrafos__inicio {
   font-size: 2rem;
-  line-height: 40px;
+  line-height: 50px;
   font-family: "Noto Sans JP", sans-serif;
   width: auto;
   text-align: center;
@@ -148,7 +148,20 @@ nav .nav-link {
 }
 
 .h2__elmejorcafe {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  padding-top: 40px !important;
+}
+
+.parrafo__nosotros {
+  font-size: 2rem;
+  line-height: 50px;
+  font-family: "Noto Sans JP", sans-serif;
+  width: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding-top: 30px;
 }
 
 /*aqui terminan los estilos de la home*/
@@ -176,7 +189,7 @@ section .col-sm-3 h3 {
 }
 section .col-sm-3 p {
   padding: 0%;
-  font-size: 1rem;
+  font-size: 1.2rem !important;
   margin-top: 0;
   text-align: center;
 }
