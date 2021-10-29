@@ -11,6 +11,7 @@
   flex-direction: column;
   color: $color1;
   padding-top: $margen;
+  margin: 2.5rem;
 }
 .parrafos__inicio {
   @include parrafo(black, 40px);
