@@ -144,7 +144,7 @@ nav .nav-link {
   display: flex;
   flex-direction: column;
   color: black;
-  padding-top: 40px;
+  padding-top: 10px;
   margin: 2.5rem;
 }
 

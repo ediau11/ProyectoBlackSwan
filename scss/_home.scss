@@ -14,7 +14,7 @@
   margin: 2.5rem;
 }
 .parrafos__inicio {
-  @include parrafo(black, 40px);
+  @include parrafo(black, 10px);
 }
 
 .h2__elmejorcafe {
@@ -25,4 +25,5 @@
 .parrafo__nosotros {
   @include parrafo(black, 30px);
 }
+
 /*aqui terminan los estilos de la home*/
