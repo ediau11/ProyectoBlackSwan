@@ -32,6 +32,7 @@ section {
     font-size: 1rem;
     margin-top: 0;
     text-align: center;
+    color: black;
   }
 
   .col-sm-3 img {
@@ -43,8 +44,8 @@ section {
   }
 
   .col-sm-3:hover {
-    transform: scale(1, 1.1);
-    transition: 2s;
+    transform: scale(1 1);
+    transition: 0, 5s;
   }
 }
 /*aqui terminan los estilos de menu*/

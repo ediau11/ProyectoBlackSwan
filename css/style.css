@@ -213,6 +213,7 @@ section .col-sm-3 p {
   font-size: 1rem;
   margin-top: 0;
   text-align: center;
+  color: black;
 }
 section .col-sm-3 img {
   width: 80%;
@@ -222,8 +223,8 @@ section .col-sm-3 img {
   margin-top: 50px;
 }
 section .col-sm-3:hover {
-  transform: scale(1, 1.1);
-  transition: 2s;
+  transform: scale(1 1);
+  transition: 0, 5s;
 }
 
 /*aqui terminan los estilos de menu*/
@@ -243,7 +244,7 @@ section .col-sm-3:hover {
 
 .sucursal:hover {
   transform: scale(1, 1.1) !important;
-  transition: 1s !important;
+  transition: 1.4s !important;
 }
 
 .mapa__Sucursal {
