@@ -1,0 +1,19 @@
+.fondo1 {
+  background-image: linear-gradient(
+    to left bottom,
+    #c9967c,
+    #cd9175,
+    #d18c6e,
+    #d58768,
+    #d98162
+  );
+}
+.contenedor404 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10rem;
+}
+.espacio {
+  margin-top: 5rem;
+}
