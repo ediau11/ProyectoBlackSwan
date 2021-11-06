@@ -196,7 +196,6 @@ section .col-sm-3 p {
   text-align: center;
 }
 section .col-sm-3 img {
-  height: a;
   width: 100%;
   object-fit: cover;
   margin-left: 5px;
@@ -223,8 +222,8 @@ section .col-sm-3 img {
   margin-top: 50px;
 }
 section .col-sm-3:hover {
-  transform: scale(1 1);
-  transition: 0, 5s;
+  transform: scale(1, 1.1) !important;
+  transition: 1s !important;
 }
 
 /*aqui terminan los estilos de menu*/
@@ -251,6 +250,12 @@ section .col-sm-3:hover {
   margin-top: 2rem;
 }
 
+@media (hover: hover) {
+  .sucursal:hover {
+    transform: scale(1, 1.1) !important;
+    transition: 1.4s !important;
+  }
+}
 /*aqui termian los estilos de sucursales*/
 fieldset {
   background-image: linear-gradient(to left bottom, #bf5b45, #c0694f, #c0755a, #c08166, #c08d74, #b98a73, #b38773, #ac8472, #9e7262, #906054, #814f46, #733e39);

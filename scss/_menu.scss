@@ -14,7 +14,6 @@ section {
   }
 
   .col-sm-3 img {
-    height: a;
     width: 100%;
     object-fit: cover;
     margin-left: 5px;
@@ -44,8 +43,8 @@ section {
   }
 
   .col-sm-3:hover {
-    transform: scale(1 1);
-    transition: 0, 5s;
+    transform: scale(1, 1.1) !important;
+    transition: 1s !important;
   }
 }
 /*aqui terminan los estilos de menu*/
