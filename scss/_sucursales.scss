@@ -11,17 +11,9 @@
   margin-right: 20px;
   margin-top: 50px;
 }
-.sucursal:hover {
-  transform: scale(1, 1.1) !important;
-  transition: 1.4s !important;
-}
+
 .mapa__Sucursal {
   margin-top: 2rem;
 }
-@media (hover) {
-  .sucursal:hover {
-    transform: scale(1, 1.1) !important;
-    transition: 1.4s !important;
-  }
-}
+
 /*aqui termian los estilos de sucursales*/
