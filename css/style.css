@@ -250,7 +250,7 @@ section .col-sm-3:hover {
   margin-top: 2rem;
 }
 
-@media (hover: hover) {
+@media (hover) {
   .sucursal:hover {
     transform: scale(1, 1.1) !important;
     transition: 1.4s !important;
